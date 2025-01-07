@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+#anyhow = "1.0.95"
+crossbeam = { version = "0.8.4", features = ["nightly"] }
+#serde = { version = "1.0.217", features = ["derive"] }
+#thiserror = "2.0.9"
 
 [profile.release-bin]
 inherits = "release"
